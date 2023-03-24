@@ -3,12 +3,12 @@ This is a script to migrate your google drive files from your old account to you
 
 
 First install the python packages.
-* Terminal
+* In google colab
   ```sh
   !pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
   ```
 Then mount your drive
-* Terminal
+* In google colab
   ```sh
   from google.colab import drive
   drive.mount('/content/drive')
